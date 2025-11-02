@@ -1,0 +1,8 @@
+{
+    "name": "claude-mcp-server",
+    "version": "1.0.0",
+    "description": "A wrapper to run the sequential thinking MCP server on Render.",
+    "dependencies": {
+      "@modelcontextprotocol/server-sequential-thinking": "latest"
+    }
+  }
