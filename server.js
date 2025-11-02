@@ -1,6 +1,6 @@
-import { McpServer } from '@modelcontextprotocol/sdk/server/mcp';
-import { StreamableHTTPServerTransport } from '@modelcontextprotocol/sdk/server/streamable-http';
-import { sequentialthinking as sequentialThinkingTool } from '@modelcontextprotocol/server-sequential-thinking';
+import { McpServer } from '@modelcontextprotocol/sdk/server/mcp.js';
+import { StreamableHTTPServerTransport } from '@modelcontextprotocol/sdk/server/streamable-http.js';
+import { sequentialthinking as sequentialThinkingTool } from '@modelcontextprotocol/server-sequential-thinking/dist/index.js';
 import express from 'express';
 
 // Get the port from Render's environment variable
