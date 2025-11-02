@@ -1,14 +1,12 @@
 {
-  "name": "claude-mcp-server-http",
+  "name": "mcp-server-deploy",
   "version": "1.0.0",
-  "description": "A remote HTTP server for the sequential thinking tool.",
   "type": "module",
   "dependencies": {
     "@modelcontextprotocol/sdk": "latest",
-    "@modelcontextprotocol/server-sequential-thinking": "latest",
     "express": "^4.19.2"
   },
   "scripts": {
-    "start": "node server.js"
+    "start": "node index.js"
   }
 }
