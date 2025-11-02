@@ -1,0 +1,1 @@
+# sequential_thinking_mcp_server_remote
