@@ -1,8 +1,12 @@
 {
-    "name": "claude-mcp-server",
-    "version": "1.0.0",
-    "description": "A wrapper to run the sequential thinking MCP server on Render.",
-    "dependencies": {
-      "@modelcontextprotocol/server-sequential-thinking": "latest"
-    }
+  "name": "claude-mcp-server-http",
+  "version": "1.0.0",
+  "description": "A proper HTTP server for a sequential thinking MCP.",
+  "dependencies": {
+    "mcp-server-http": "latest",
+    "mcp-tool-sequential-thinking": "latest"
+  },
+  "scripts": {
+    "start": "node server.js"
   }
+}
