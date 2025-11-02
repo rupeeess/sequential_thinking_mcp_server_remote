@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: sequential-thinking-mcp
+    runtime: node
+    plan: free
+    buildCommand: "npm install"
+    startCommand: "npx @modelcontextprotocol/server-sequential-thinking --transport http --host 0.0.0.0 --port $PORT"
